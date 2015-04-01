@@ -1,0 +1,22 @@
+ranks:
+    dirt:
+        name: §1Dirt
+        elo: 0
+    wood:
+        name: §8Wood
+        elo: 1030
+    stone:
+        name: §7Stone
+        elo: 1500
+    iron:
+        name: §7Iron
+        elo: 1880
+    gold:
+        name: §6Gold
+        elo: 2240
+    diamond:
+        name: §bDiamond
+        elo: 2640
+    emerald:
+        name: §aEmerald
+        elo: 3180

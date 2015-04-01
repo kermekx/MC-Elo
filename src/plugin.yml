@@ -1,0 +1,5 @@
+name: MC_Elo
+main: com.kermekx.mcelo.MCElo
+version: 1.0
+description: A plugin that alow player to be ranked into leagues
+author: kevin messiaen
