@@ -1,5 +1,6 @@
 package com.kermekx.mcelo;
 
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -9,6 +10,7 @@ import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.kermekx.mcelo.data.SQLManager;
 import com.kermekx.mcelo.elo.Elo;
 import com.kermekx.mcelo.listener.MonitorListener;
 import com.kermekx.mcelo.rank.Rank;
@@ -30,6 +32,14 @@ public class MCElo extends JavaPlugin {
 		pluginManager.registerEvents(new MonitorListener(), this);
 		
 		Rank.loadRanks();
+		
+		try {
+			SQLManager.makeInstance("jdbc:mysql://adm.minecraft-mania.fr:3306/?autoReconnect=true", "222015050332450", "Effect59tagcube");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		
 		elos = new HashMap<UUID, Elo>();
 		for(Player player : this.getServer().getOnlinePlayers())

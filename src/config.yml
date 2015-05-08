@@ -1,22 +1,64 @@
 ranks:
-    dirt:
-        name: §1Dirt
+    dirt3:
+        name: Dirt III
         elo: 0
-    wood:
-        name: §8Wood
+    dirt2:
+        name: Dirt II
+        elo: 530
+    dirt1:
+        name: Dirt I
+        elo: 820
+    wood3:
+        name: Wood III
         elo: 1030
-    stone:
-        name: §7Stone
+    wood2:
+        name: Wood II
+        elo: 1210
+    wood1:
+        name: Wood I
+        elo: 1360
+    stone3:
+        name: Stone III
         elo: 1500
-    iron:
-        name: §7Iron
+    stone2:
+        name: Stone II
+        elo: 1630
+    stone1:
+        name: Stone I
+        elo: 1760
+    iron3:
+        name: Iron III
         elo: 1880
-    gold:
-        name: §6Gold
+    iron2:
+        name: Iron II
+        elo: 2000
+    iron1:
+        name: Iron I
+        elo: 2120
+    gold3:
+        name: Gold III
         elo: 2240
-    diamond:
-        name: §bDiamond
+    gold2:
+        name: Gold II
+        elo: 2370
+    gold1:
+        name: Gold I
+        elo: 2500
+    diamond3:
+        name: Diamond III
         elo: 2640
-    emerald:
-        name: §aEmerald
+    diamond2:
+        name: Diamond II
+        elo: 2790
+    diamond1:
+        name: Diamond I
+        elo: 2970
+    emerald3:
+        name: Emerald III
         elo: 3180
+    emerald2:
+        name: Emerald II
+        elo: 3470
+    emerald1:
+        name: Emerald I
+        elo: 4000

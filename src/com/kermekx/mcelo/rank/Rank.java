@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.bukkit.ChatColor;
+
 import com.kermekx.mcelo.MCElo;
 
 public class Rank implements Comparable<Rank> {
@@ -40,7 +42,7 @@ public class Rank implements Comparable<Rank> {
 	private final int elo;
 
 	public Rank(String name, int elo) {
-		this.name = name;
+		this.name = ChatColor.translateAlternateColorCodes('&', name);
 		this.elo = elo;
 	}
 
