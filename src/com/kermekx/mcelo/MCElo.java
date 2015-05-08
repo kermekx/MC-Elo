@@ -34,7 +34,7 @@ public class MCElo extends JavaPlugin {
 		Rank.loadRanks();
 		
 		try {
-			SQLManager.makeInstance("jdbc:mysql://adm.minecraft-mania.fr:3306/?autoReconnect=true", "222015050332450", "Effect59tagcube");
+			SQLManager.makeInstance("url", "login", "pass");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
